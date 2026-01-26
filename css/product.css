@@ -1,0 +1,52 @@
+h1{ 
+    color: rgb(243, 244, 243);
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    background-color: black;
+    line-height: 200px;
+    text-shadow: 10px 10px 10px green;
+}
+
+h1:hover{
+    background-color: rgb(1, 59, 1);
+    color: black;
+    text-shadow: 10px 10px 10px white;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img{
+    width: 320px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform:scale(1.1);
+    transition: all o.5s;
+}
+
+body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(1, 59, 1);
+}
+
+a{
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+.one{
+    
+}

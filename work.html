@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Students Marks Table</title>
+
+  <style>
+    table{
+      border: 3px solid black;
+      border-collapse: collapse;
+      width: 30%;
+    }
+
+    th,td{
+      border: 3px solid black;
+      padding: 10px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    th{
+      text-decoration: underline;
+    }
+
+   
+  </style>
+
+
+</head>
+<body>
+  <table class="marks-table" aria-label="Students marks table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Row for David -->
+      <tr class="row-spacer">
+        <td rowspan="3">1</td>
+        <td rowspan="3">David</td>
+        <td>Maths</td>
+        <td>80</td>
+      </tr>
+      <tr class="row-spacer">
+        <td>Physics</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>Computers</td>
+        <td>70</td>
+      </tr>
+
+      <!-- Row for Alex -->
+      <tr class="row-spacer">
+        <td rowspan="3">2</td>
+        <td rowspan="3">Alex</td>
+        <td>Maths</td>
+        <td>80</td>
+      </tr>
+      <tr class="row-spacer">
+        <td>Physics</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Computers</td>
+        <td>90</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
